@@ -11,8 +11,9 @@ Windows 下如何让 frp 以系统服务的方式运行
 
 nssm.exe install frp
 
-
+如图
 path：xxx/yyy/frpc.exe
 startup directory : yyy/
 arguments: -c xxx/yyy/frpc.ini
 
+服务中会生成frp  服务
