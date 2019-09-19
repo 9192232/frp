@@ -1,0 +1,18 @@
+https://meta.appinn.net/t/frp/11319
+
+Windows 下如何让 frp 以系统服务的方式运行
+运行 frp 后会有一个命令提示符的窗口，如果长期在桌面的话，会很烦人。
+
+这里有一个 nssm 工具，可以帮助你把 .exe 程序变成 Windows 系统服务，这样就看不到那个窗口，并且也会在开机后自动运行了，非常的方便。
+
+下载地址 23，nssm 官网挂了，这里是 GitHub 的下载地址。
+
+然后用管理员方式打开命令提示符
+
+nssm.exe install frp
+
+
+path：xxx/yyy/frpc.exe
+startup directory : yyy/
+arguments: -c xxx/yyy/frpc.ini
+
