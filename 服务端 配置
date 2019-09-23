@@ -1,0 +1,17 @@
+[common]
+bind_port = 7000
+vhost_http_port = 5589
+
+
+dashboard_port = 7500
+# dashboard 用户名密码，默认都为 admin
+dashboard_user = admin
+dashboard_pwd = admin
+
+[nas]
+type = http
+vhost_http_port = 80
+custom_domains = nas.56sl.com
+
+[ssh]
+listen_port = 6000
